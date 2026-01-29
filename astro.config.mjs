@@ -16,5 +16,6 @@ export default defineConfig({
 		'/candy': 'https://candy.firetime.me',
   		'/ftar': 'https://ftar.firetime.me',
 		'/contact': '/blog/contact',
+		'/socials': '/blog/socials',
 	},
 });
