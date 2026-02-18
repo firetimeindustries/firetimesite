@@ -2,7 +2,7 @@
 title: 'New Game Studio - Fork In A Microwave Studios'
 description: 'Brand New Game Studio'
 pubDate: 'Feb 18 2026'
-heroImage: '/blog-placeholder-1.jpg'
+heroImage: '/blog-placeholder-2.jpg'
 ---
 <img width="2000" height="2000" alt="Fork In A (1)" src="https://github.com/user-attachments/assets/4d1e98d9-329f-4b9d-8be5-f688c4920c12" />
 
