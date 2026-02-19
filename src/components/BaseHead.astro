@@ -3,6 +3,7 @@
 // all pages through the use of the <BaseHead /> component.
 import '../styles/global.css';
 import { SITE_TITLE } from '../consts';
+import Analytics from '@vercel/analytics/astro';
 
 interface Props {
 	title: string;
@@ -63,3 +64,6 @@ const { title, description, image = '/FireTime.png' } = Astro.props;
 <!-- shoelace (use web awesome now, you can use shoelace but web awesome is newer) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/themes/light.css" />
 <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace-autoloader.js"></script>
+
+<!-- Vercel Web Analytics -->
+<Analytics />
